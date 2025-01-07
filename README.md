@@ -1,7 +1,6 @@
 # FWA(Fraud Waste and Abuse) Claims Modelling
 
-## Requirements
-This project requires **Python 3.7 or higher**. Please ensure you have the correct version installed.
+[![Python 3](https://img.shields.io/badge/python-3-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 
 ## Overview
 This project focuses on detecting **Fraud, Waste, and Abuse (FWA)** in health insurance claims using mathematical and machine learning models. The dataset consists of health insurance claims, which contain various features like claim amount, diagnosis codes, procedure codes, and more. The primary goal is to identify fraudulent claims and develop a risk scoring system to prioritize claims for further investigation.
