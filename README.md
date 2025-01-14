@@ -82,6 +82,8 @@ The model's performance was evaluated using precision, recall, accuracy, and con
 
 ## Recommendations
 - **Improving Recall**: Further feature engineering and adjusting the model's sensitivity could help improve recall for fraudulent claims.
+A few echiques for future implementation could include:
+	1. SMOTE
 - **Continuous Monitoring**: The model should be updated regularly with new data and performance monitoring.
 
 ## How to Use
