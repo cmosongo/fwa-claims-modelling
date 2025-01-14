@@ -1,16 +1,9 @@
 # FWA(Fraud Waste and Abuse) Claims Modelling
 
-
-
-Here's a simple README for your project. You can add image links to the designated sections once you have uploaded them to your repository's images folder.
-
----
-
-# Fraud, Waste, and Abuse (FWA) Detection in Health Insurance Claims
+[![Python 3](https://img.shields.io/badge/python-3-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 
 ## Overview
 This project focuses on detecting **Fraud, Waste, and Abuse (FWA)** in health insurance claims using mathematical and machine learning models. The dataset consists of health insurance claims, which contain various features like claim amount, diagnosis codes, procedure codes, and more. The primary goal is to identify fraudulent claims and develop a risk scoring system to prioritize claims for further investigation.
-
 
 ## Dataset
 The dataset includes the following columns:
@@ -87,9 +80,11 @@ A few echiques for future implementation could include:
 - **Continuous Monitoring**: The model should be updated regularly with new data and performance monitoring.
 
 ## How to Use
+
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/FWA-detection.git
+   git clone https://github.com/cmosongo/fwa-claims-modelling.git
    ```
 2. Install the required packages:
    ```bash
@@ -101,6 +96,8 @@ A few echiques for future implementation could include:
    ```
 
 ## with a `.venv`
+
+After cloning the repository, `cd` into the repo from your terminal and follow the steps below:
 
 1. Create virtual environment 
 	```bash
