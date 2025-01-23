@@ -81,6 +81,7 @@ A few echiques for future implementation could include:
 
 ## How to Use
 
+### 1. Global installation
 
 1. Clone the repository:
    ```bash
@@ -92,12 +93,12 @@ A few echiques for future implementation could include:
    ```
 3. Run the Jupyter notebook:
    ```bash
-   jupyter notebook FWA_Modelling.ipynb
+   jupyter notebook notebooks/FWA_Modelling.ipynb
    ```
 
-## with a `.venv`
+## 2. Virtual Environment
 
-After cloning the repository, `cd` into the repo from your terminal and follow the steps below:
+Clone the repository and navigate to the parent folder using either the Command Prompt `cmd` or PowerShell on Windows, or any Unix-based terminal. Then, run the following commands:
 
 1. Create virtual environment 
 	```bash
@@ -106,20 +107,20 @@ After cloning the repository, `cd` into the repo from your terminal and follow t
 
 2. Activate virtual environment 
 
-	> Linux/MAC
+	> Unix
 	```bash
-	(.venv)$ .venv/bin/activate
+	$ source .venv/bin/activate
 	```
 
 	> Windows
 	Command Prompt:
 	```bash
-	(.venv)> .venv\Scripts\activate
+	> .venv\Scripts\activate
 	```
 
 	PowerShell:
-	```bash
-	(.venv)PS> .\.venv\Scripts\Activate
+	```shell
+	PS> .\.venv\Scripts\Activate
 	```
 
 3. To use nootebooks:
@@ -128,12 +129,11 @@ After cloning the repository, `cd` into the repo from your terminal and follow t
 	(.venv)> pip install ipykernel
 	```
 
-4. To run the notebook, run the folliwing command to add the virtual environment to jupyter kernel
+4. To run the notebook, run the following command to add the virtual environment to jupyter kernel
 
 	```bash
-	python -m ipykernel install --user --name=.venv --display-name "FWA Claims Analysis"
+	(.venv)> python -m ipykernel install --user --name=.venv --display-name "FWA Claims Analysis"
 	```
-
 
 5. Install the required packages 
 	```bash
