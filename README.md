@@ -107,7 +107,7 @@ Clone the repository and navigate to the parent folder using either the Command 
 
 2. Activate virtual environment 
 
-	> Unix
+	> Unix:
 	```bash
 	$ source .venv/bin/activate
 	```
