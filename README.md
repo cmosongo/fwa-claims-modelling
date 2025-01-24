@@ -132,7 +132,7 @@ Clone the repository and navigate to the parent folder using either the Command 
 4. To run the notebook, run the following command to add the virtual environment to jupyter kernel
 
 	```bash
-	(.venv)> python -m ipykernel install --user --name=.venv --display-name "FWA Claims Analysis"
+	(.venv)> python -m ipykernel install --user --name=.venv-fwa_claims_analysis --display-name "FWA Claims Analysis"
 	```
 
 5. Install the required packages 
