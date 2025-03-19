@@ -100,52 +100,41 @@ A few echiques for future implementation could include:
 
 Clone the repository and navigate to the parent folder using either the Command Prompt `cmd` or PowerShell on Windows, or any Unix-based terminal. Then, run the following commands:
 
+## with a `.venv`
+
 1. Create virtual environment 
 	```bash
-	python -m venv .venv
+	python3 -m venv .venv
 	```
 
 2. Activate virtual environment 
 
-	> Unix:
+	> Linux/MAC
 	```bash
-	$ source .venv/bin/activate
+	(.venv)$ .venv/bin/activate
 	```
 
 	> Windows
 	Command Prompt:
 	```bash
-	> .venv\Scripts\activate
+	(.venv)> .venv\Scripts\activate
 	```
 
-	> PowerShell:
-	```shell
-	PS> .\.venv\Scripts\Activate
-	```
-
-3. To use nootebooks:
-
+	PowerShell:
 	```bash
-	(.venv)> pip install ipykernel
+	(.venv)PS> .\.venv\Scripts\Activate
 	```
 
-4. To run the notebook, run the following command to add the virtual environment to jupyter kernel
-
-	```bash
-	(.venv)> python -m ipykernel install --user --name=.venv --display-name "FWA Claims Analysis"
-	```
-
-5. Install the required packages 
+3. Install the required packages 
 	```bash
 	(.venv)> pip install -r requirements.txt
 	```
 
-6. Deactivating the virtual environment
+4. Deactivating the virtual environment
 
 	 ```bash
 	 deactivate
 	 ```
-
 
 
 
